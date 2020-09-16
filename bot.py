@@ -39,4 +39,4 @@ for i in exts:
     bot.load_extension(i)
 
 
-bot.run(os.environ['NzU1NDE4NjczMTI4NDA3MTUx.X2DAdg.Ut_YXZvmR1wdPtX7H5JvbupnAJI'])
+bot.run(os.environ['NzU1NDE4NjczMTI4NDA3MTUx.X2DAdg.C2-hWEcCDUgwwksl--SVeKqyswo'])

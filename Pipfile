@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+git+https://github.com/Rapptz/discord.py
+git+https://github.com/ytdl-org/youtube-dl
+
+[packages]
+PyNaCl = "*"
+google-api-python-client = "*"
+dnspython = "*"
+PyNaCl = "*"
+async-timeout = "*"
+
+[requires]
+python_version = "3.8"

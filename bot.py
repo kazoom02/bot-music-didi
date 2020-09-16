@@ -5,7 +5,12 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+def read_token():
+	with open("token.txt","r") as f:
+		lines = f.readlines()
+		return lines[0].strip()
 
+token = read_token()
 
 
 def get_prefix(bot, msg):
@@ -39,4 +44,4 @@ for i in exts:
     bot.load_extension(i)
 
 
-bot.run(os.environ['NzU1NDE4NjczMTI4NDA3MTUx.X2DAdg.C2-hWEcCDUgwwksl--SVeKqyswo'])
+bot.run(os.environ[token])
